@@ -18,8 +18,9 @@
     * 群主踢用户退群(kickTopic) 
     * 群主更新群信息(updateTopic)
     * 群主销毁群(dismissTopic)
-    
-### 快速开始
+
+
+## 快速开始
 
 #### 1）[Android](https://github.com/Xiaomi-mimc/mimc-android-sdk)
 
@@ -29,7 +30,8 @@
 
 ## 4）[PC_java](https://github.com/Xiaomi-mimc/mimc-java-sdk)
 
-### PushService
+
+## PushService
 
 ## 下面的例子中所使用到的常量解释：(变量名称/含义)
 
@@ -78,7 +80,8 @@ curl https://mimc.chat.xiaomi.net/api/push/p2t/ -XPOST -d '{"appId":$appId, "app
 }
 ```
 
-### TopicAPI
+
+## TopicAPI
 
 ## 下面的例子中所使用到的常量解释：(变量名称/含义)
 
