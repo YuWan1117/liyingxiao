@@ -1,4 +1,4 @@
-****
+
 ## 目录
 * [快速开始](#快速开始)
     * [Android](https://github.com/Xiaomi-mimc/mimc-android-sdk?_blank)
