@@ -1,10 +1,10 @@
 ****
 ## 目录
 * [快速开始](#快速开始)
-    * [Android](#Android)
-    * [Web](#Web)
-    * [IOS](#IOS)
-    * [PC_java](#PC_java)
+    * [Android](https://github.com/Xiaomi-mimc/mimc-android-sdk)
+    * [Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk)
+    * [IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
+    * [PC_java](https://github.com/Xiaomi-mimc/mimc-java-sdk)
     
 * [推送消息](#PushService)
     * 推送单聊信息
@@ -22,14 +22,13 @@
 ### 快速开始
 
 ## 1） Android
+[Android](https://github.com/Xiaomi-mimc/mimc-android-sdk)
 
-*[Android]:https://github.com/Xiaomi-mimc/mimc-android-sdk
-
-## 2） Web
-*[Web]:https://github.com/Xiaomi-mimc/mimc-webjs-sdk
+## 2） [Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk)
+[Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk)
 
 ## 3） IOS
-*[IOS]:https://github.com/Xiaomi-mimc/mimc-ios-sdk
+[IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
 
 # mimc-ios-sdk
 ## 预计2018.1.12发布
