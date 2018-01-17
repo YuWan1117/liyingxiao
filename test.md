@@ -153,7 +153,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId" -XPOST -d '{"topicName":$to
 }
 ```
 
-### 查询指定群信息(queryTopic)
+### 查询指定群信息
 
 #### 如下为$userAccount1查询群信息
 
@@ -185,7 +185,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId" -H "Content-Type: 
 }
 ```
 
-### 查询所属群信息(queryTopic)
+### 查询所属群信息
 
 #### 如下为$userAccount1查询加入的所有群信息
 
@@ -218,7 +218,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/account" -H "Content-Type: a
 }
 ```
 
-### 邀请用户加入群(joinTopic)
+### 邀请用户加入群
 
 #### 如下为$userAccount1邀请$userAccount4,$userAccount5加入群
 	
@@ -252,7 +252,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId/accounts" -XPOST -d
 }
 ```
 
-### 非群主用户退群(quitTopic)
+### 非群主用户退群
 
 #### 如下为$userAccount1退群
 
@@ -290,7 +290,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId/account" -XDELETE -
 {"code":500,"message":"quit topic fail","data":null}
 ```
  
-### 群主踢用户退群(kickTopic)
+### 群主踢用户退群
 
 #### 如下为$ownerAccount踢$userAccount4,$userAccount5退出群
 
@@ -321,7 +321,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId/accounts?accounts=$
 }
 ```
 	
-### 群主更新群信息(updateTopic)
+### 群主更新群信息
 
 #### 如下为$ownerAccount更新群信息：群主为$userAccount2，群名称为$newTopicName，群公告为$newBulletin
 	
@@ -352,7 +352,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId" -XPUT -d '{"topicI
 }
 ```
 
-### 群主销毁群(dismissTopic)
+### 群主销毁群
 
 #### 如下为群主销毁群
 	
