@@ -1,9 +1,9 @@
 ****
 ## 目录
 * [快速开始](#快速开始)
-    * Android
-    * Web
-    * IOS
+    * [Android] (#Android)
+    * [Web](#Web)
+    * [IOS](#IOS)
     * PC
 * [PushService](#PushService)
     * 推送单聊信息
