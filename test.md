@@ -8,17 +8,17 @@
     
 * [推送消息](#推送消息)
     * [推送单聊信息](#推送单聊信息)
-    * [推送群聊信息](###推送群聊信息)
+    * [推送群聊信息](#推送群聊信息)
     
 * [群聊消息](#群聊消息)
-    * [1) 创建群(createTopic)](创建群(createTopic))
-    * 查询群信息(queryTopic)
-    * 查询所属群信息(queryTopic)
-    * 邀请人进群(joinTopic)
-    * 非群主用户退群(quitTopic)
-    * 群主踢用户退群(kickTopic) 
-    * 群主更新群信息(updateTopic)
-    * 群主销毁群(dismissTopic)
+    * [创建群(createTopic)](#创建群(createTopic))
+    * [查询群信息(queryTopic)](#查询群信息(queryTopic))
+    * [查询所属群信息(queryTopic)](#查询所属群信息(queryTopic))
+    * [邀请人进群(joinTopic)](#邀请人进群(joinTopic))
+    * [非群主用户退群(quitTopic)](#非群主用户退群(quitTopic))
+    * [群主踢用户退群(kickTopic)](#群主踢用户退群(kickTopic))
+    * [群主更新群信息(updateTopic)](#群主更新群信息(updateTopic))
+    * [群主销毁群(dismissTopic)](#群主销毁群(dismissTopic))
 
 
 ## 快速开始
@@ -121,7 +121,7 @@ uuid的获取使用User.getUuid()方法，uuid由MIMC根据($appId, $appAccount)
 当两种认证信息都存在时，优先验证前者。前者一般用于app客户端，后者一般用于app服务端。下面给出了这两种的使用方式。
 ```
 
-### 1) 创建群(createTopic)
+### 创建群(createTopic)
 
 #### 如下为$ownerAccount创建群
 	
@@ -153,7 +153,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId" -XPOST -d '{"topicName":$to
 }
 ```
 
-### 2) 查询群信息(queryTopic)：
+### 查询群信息(queryTopic)：
 
 #### 如下为$userAccount1查询群信息
 
@@ -185,7 +185,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId" -H "Content-Type: 
 }
 ```
 
-### 3) 查询所属群信息(queryTopic)：
+### 查询所属群信息(queryTopic)：
 
 #### 如下为$userAccount1查询加入的所有群信息
 
@@ -218,7 +218,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/account" -H "Content-Type: a
 }
 ```
 
-### 4) 邀请人进群(joinTopic):
+### 邀请人进群(joinTopic):
 
 #### 如下为$userAccount1邀请$userAccount4,$userAccount5加入群
 	
@@ -252,7 +252,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId/accounts" -XPOST -d
 }
 ```
 
-### 5) 非群主用户退群(quitTopic):
+### 非群主用户退群(quitTopic):
 
 #### 如下为$userAccount1退群
 
@@ -290,7 +290,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId/account" -XDELETE -
 {"code":500,"message":"quit topic fail","data":null}
 ```
  
-### 6) 群主踢用户退群(kickTopic):
+### 群主踢用户退群(kickTopic):
 
 #### 如下为$ownerAccount踢$userAccount4,$userAccount5退出群
 
@@ -321,7 +321,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId/accounts?accounts=$
 }
 ```
 	
-### 7) 群主更新群信息(updateTopic):
+### 群主更新群信息(updateTopic):
 
 #### 如下为$ownerAccount更新群信息：群主为$userAccount2，群名称为$newTopicName，群公告为$newBulletin
 	
@@ -352,7 +352,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/$topicId" -XPUT -d '{"topicI
 }
 ```
 
-### 8) 群主销毁群(dismissTopic):
+### 群主销毁群(dismissTopic):
 
 #### 如下为群主销毁群
 	
