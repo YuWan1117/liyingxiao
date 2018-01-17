@@ -9,7 +9,7 @@
 * [推送消息](#推送消息)
     * 推送单聊信息
     * 推送群聊信息
-* [群聊消息](#TopicAPI)
+* [群聊消息](#群聊消息)
     * 创建群(createTopic)
     * 查询群信息(queryTopic)
     * 查询所属群信息(queryTopic)
@@ -81,7 +81,7 @@ curl https://mimc.chat.xiaomi.net/api/push/p2t/ -XPOST -d '{"appId":$appId, "app
 ```
 
 
-## TopicAPI
+## 群聊消息
 
 ### 参数列表
 
