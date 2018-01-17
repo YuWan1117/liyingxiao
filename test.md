@@ -23,20 +23,20 @@
 
 ## 1） Android
 
-[Android]:https://github.com/Xiaomi-mimc/mimc-android-sdk
+*[Android]:https://github.com/Xiaomi-mimc/mimc-android-sdk
 
 ## 2） Web
-[Web]:https://github.com/Xiaomi-mimc/mimc-webjs-sdk
+*[Web]:https://github.com/Xiaomi-mimc/mimc-webjs-sdk
 
 ## 3） IOS
-[IOS]:https://github.com/Xiaomi-mimc/mimc-ios-sdk
+*[IOS]:https://github.com/Xiaomi-mimc/mimc-ios-sdk
 
 # mimc-ios-sdk
 ## 预计2018.1.12发布
 
 
 ## 4） PC_java
-[PC_java]:https://github.com/Xiaomi-mimc/mimc-java-sdk
+*[PC_java]:https://github.com/Xiaomi-mimc/mimc-java-sdk
 
 # 获取方式：
 ## 邮件：mimc-help@xiaomi.com，线下索取
