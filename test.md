@@ -6,10 +6,10 @@
     * [IOS](#IOS)
     * [PC_java](#PC_java)
     
-* [PushService](#PushService)
+* [推送消息](#PushService)
     * 推送单聊信息
     * 推送群聊信息
-* [TopicAPI](#TopicAPI)
+* [群聊消息](#TopicAPI)
     * 创建群(createTopic)
     * 查询群信息(queryTopic)
     * 查询所属群信息(queryTopic)
