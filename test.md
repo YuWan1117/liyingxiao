@@ -1,16 +1,17 @@
 
 ## 目录
 * [快速开始](#快速开始)
-    * [Android](https://github.com/Xiaomi-mimc/mimc-android-sdk?_blank)
-    * [Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk?_blank)
-    * [IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk?_blank)
-    * [PC](https://github.com/Xiaomi-mimc/mimc-java-sdk?_blank)
+    * [Android](https://github.com/Xiaomi-mimc/mimc-android-sdk)
+    * [Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk)
+    * [IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
+    * [PC](https://github.com/Xiaomi-mimc/mimc-java-sdk)
     
 * [推送消息](#推送消息)
-    * 推送单聊信息
-    * 推送群聊信息
+    * [1）推送单聊信息](1）推送单聊信息)
+    * [2）推送群聊信息](2）推送群聊信息)
+    
 * [群聊消息](#群聊消息)
-    * 创建群(createTopic)
+    * [1) 创建群(createTopic)](创建群(createTopic))
     * 查询群信息(queryTopic)
     * 查询所属群信息(queryTopic)
     * 邀请人进群(joinTopic)
@@ -120,7 +121,7 @@ uuid的获取使用User.getUuid()方法，uuid由MIMC根据($appId, $appAccount)
 当两种认证信息都存在时，优先验证前者。前者一般用于app客户端，后者一般用于app服务端。下面给出了这两种的使用方式。
 ```
 
-### 1) 创建群(createTopic)：
+### 1) 创建群(createTopic)
 
 #### 如下为$ownerAccount创建群
 	
