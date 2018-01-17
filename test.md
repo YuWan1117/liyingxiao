@@ -121,7 +121,7 @@ uuid的获取使用User.getUuid()方法，uuid由MIMC根据($appId, $appAccount)
 当两种认证信息都存在时，优先验证前者。前者一般用于app客户端，后者一般用于app服务端。下面给出了这两种的使用方式。
 ```
 
-### 创建群createTopic
+### 创建群
 
 #### 如下为$ownerAccount创建群
 	
