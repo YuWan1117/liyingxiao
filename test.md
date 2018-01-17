@@ -4,7 +4,7 @@
     * [Android](https://github.com/Xiaomi-mimc/mimc-android-sdk)
     * [Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk)
     * [IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
-    * [PC_java](https://github.com/Xiaomi-mimc/mimc-java-sdk)
+    * [PC](https://github.com/Xiaomi-mimc/mimc-java-sdk)
     
 * [推送消息](#PushService)
     * 推送单聊信息
@@ -28,7 +28,7 @@
 
 #### 3）[IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
 
-## 4）[PC_java](https://github.com/Xiaomi-mimc/mimc-java-sdk)
+#### 4）[PC](https://github.com/Xiaomi-mimc/mimc-java-sdk)
 
 
 ## PushService
