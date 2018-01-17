@@ -6,7 +6,7 @@
     * [IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
     * [PC](https://github.com/Xiaomi-mimc/mimc-java-sdk)
     
-* [推送消息](#PushService)
+* [推送消息](#推送消息)
     * 推送单聊信息
     * 推送群聊信息
 * [群聊消息](#TopicAPI)
@@ -31,7 +31,7 @@
 #### 4）[PC](https://github.com/Xiaomi-mimc/mimc-java-sdk)
 
 
-## PushService
+## 推送消息
 
 ### 参数列表
 
