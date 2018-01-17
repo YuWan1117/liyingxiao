@@ -11,14 +11,14 @@
     * [推送群聊信息](#推送群聊信息)
     
 * [群聊消息](#群聊消息)
-    * [创建群createTopic](#创建群createTopic)
-    * [查询群信息(queryTopic)](#查询群信息(queryTopic))
-    * [查询所属群信息(queryTopic)](#查询所属群信息(queryTopic))
-    * [邀请人进群(joinTopic)](#邀请人进群(joinTopic))
-    * [非群主用户退群(quitTopic)](#非群主用户退群(quitTopic))
-    * [群主踢用户退群(kickTopic)](#群主踢用户退群(kickTopic))
-    * [群主更新群信息(updateTopic)](#群主更新群信息(updateTopic))
-    * [群主销毁群(dismissTopic)](#群主销毁群(dismissTopic))
+    * [创建群](#创建群)
+    * [查询指定群信息](#查询指定群信息)
+    * [查询所属群信息](#查询所属群信息)
+    * [邀请用户加入群](#邀请用户加入群)
+    * [非群主用户退群](#非群主用户退群))
+    * [群主踢用户退群](#群主踢用户退群))
+    * [群主更新群信息](#群主更新群信息)
+    * [群主销毁群](#群主销毁群)
 
 
 ## 快速开始
@@ -153,7 +153,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId" -XPOST -d '{"topicName":$to
 }
 ```
 
-### 查询群信息(queryTopic)
+### 查询指定群信息(queryTopic)
 
 #### 如下为$userAccount1查询群信息
 
@@ -218,7 +218,7 @@ curl "https://mimc.chat.xiaomi.net/api/topic/$appId/account" -H "Content-Type: a
 }
 ```
 
-### 邀请人进群(joinTopic)
+### 邀请用户加入群(joinTopic)
 
 #### 如下为$userAccount1邀请$userAccount4,$userAccount5加入群
 	
