@@ -1,10 +1,10 @@
 ****
 ## 目录
 * [快速开始](#快速开始)
-    * [Android](https://github.com/Xiaomi-mimc/mimc-android-sdk)
-    * [Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk)
-    * [IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
-    * [PC](https://github.com/Xiaomi-mimc/mimc-java-sdk)
+    * [Android](https://github.com/Xiaomi-mimc/mimc-android-sdk?_blank)
+    * [Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk?_blank)
+    * [IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk?_blank)
+    * [PC](https://github.com/Xiaomi-mimc/mimc-java-sdk?_blank)
     
 * [推送消息](#推送消息)
     * 推送单聊信息
@@ -22,13 +22,13 @@
 
 ## 快速开始
 
-#### 1）[Android](https://github.com/Xiaomi-mimc/mimc-android-sdk)
+#### 1）[Android](https://github.com/Xiaomi-mimc/mimc-android-sdk?_blank)
 
-#### 2）[Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk)
+#### 2）[Web](https://github.com/Xiaomi-mimc/mimc-webjs-sdk?_blank)
 
-#### 3）[IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk)
+#### 3）[IOS](https://github.com/Xiaomi-mimc/mimc-ios-sdk?_blank)
 
-#### 4）[PC](https://github.com/Xiaomi-mimc/mimc-java-sdk)
+#### 4）[PC](https://github.com/Xiaomi-mimc/mimc-java-sdk?_blank)
 
 
 ## 推送消息
