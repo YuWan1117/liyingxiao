@@ -25,15 +25,10 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
+	<dependency>
             <groupId>com.typesafe</groupId>
             <artifactId>config</artifactId>
             <version>1.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.xiaomi</groupId>
-            <artifactId>globalconf-lib</artifactId>
-            <version>1.1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -86,12 +81,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>com.xiaomi</groupId>
-            <artifactId>passportsdk</artifactId>
-            <version>3.3.19</version>
         </dependency>
 	</dependencies>
 
