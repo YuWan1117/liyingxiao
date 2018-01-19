@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>测试 Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" th:href="@{/favicon.ico}"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" th:href="@{/favicon.ico}"/>
+    <link rel="bookmark" href="favicon.ico" th:href="@{/favicon.ico}"/>
+
+    <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" type="text/css" href="webjars/font-awesome/3.2.1/css/font-awesome.min.css" th:href="@{/webjars/font-awesome/3.2.1/css/font-awesome.min.css}"/>
+    <link rel="stylesheet" type="text/css" href="webjars/datatables/1.10.16/css/jquery.dataTables.min.css" th:href="@{/webjars/datatables/1.10.16/css/jquery.dataTables.min.css}"/>
+
+</head>
+<body>
+<p>Hello World</p>
+
+<div class="container" style="min-height: 500px">
+    <div class="panel panel-default">
+        <div class="panel-heading"><i class="icon-search"></i>指定用户</div>
+        <div class="panel-body">
+            <form class="form-horizontal" id="search-account-form">
+                <div class="form-group">
+                    <label class="col-sm-1 control-label">account</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="account" placeholder="输入一个用户名"/>
+                    </div>
+                    <div class="col-sm-2">
+                        <button type="submit" id="btn-search-account" class="btn btn-primary">查询</button>
+                    </div>
+                </div>
+                <div class="form-group" id="query-users-result">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="webjars/jquery/3.2.1/jquery.min.js" th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"></script>
+<script type="text/javascript" src="webjars/bootstrap/3.3.7-1/js/bootstrap.js" th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.js}"></script>
+<script type="text/javascript" src="webjars/datatables/1.10.16/js/jquery.dataTables.min.js" th:src="@{/webjars/datatables/1.10.16/js/jquery.dataTables.min.js}"></script>
+
+<script type="text/javascript" src="js/account.js" th:src="@{/js/account.js}"></script>
+</body>
+</html>
